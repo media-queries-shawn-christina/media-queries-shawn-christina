@@ -127,4 +127,8 @@ a:link {
     justify-content: center;
 }
 
+.star {
+    display: inline;
+}
+
 }
