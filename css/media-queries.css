@@ -46,8 +46,8 @@ a:link {
  }
 
  img{
-     width: 336px;
-     height: 224px;
+     width: 100%;
+     height: auto;
  }
  .header-img{
      display: flex;
@@ -89,6 +89,8 @@ a:link {
 @media screen and (min-width:992px) {
     .alert-info  {
         visibility: hidden;
+        position: absolute;
+
     }
     body {
         display: flex;
@@ -106,8 +108,22 @@ a:link {
         background: none;
     }
     img{
-        width: 95%;
+        display: flex;
+        width: 100%;
         height: auto;
     }
+    .sub-section{
+        width: calc(33% - 20px);
+        margin: 0px 10px ;
+    }
+    .main{
+        width: calc(66% - 20px);
+        margin: 0px 10px ;
+    }
+.header-img{
+    display: flex;
+    justify-content: center;
+}
+
 
 }
