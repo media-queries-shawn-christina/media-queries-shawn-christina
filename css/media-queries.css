@@ -8,6 +8,7 @@
      border: grey solid 1px;
      padding: 10px;
      font-family: sans-serif;
+     width: 100%;
 
 
 
@@ -32,11 +33,37 @@
  .nav-links {
      display: flex;
      flex-direction: column;
-     justify-content: center;
      align-items: center;
      font-family: sans-serif;
      list-style: none;
      text-decoration: none;
-     background: lightgray;
 
+
+
+ }
+ li{
+     background: lightgray;
+    padding: 15px;
+     width: 100%;
+     margin:  10px 0;
+     display: flex;
+     justify-content: center;
+     text-decoration: underline;
+
+ }
+ img{
+     width: 339px;
+     height: 224px;
+ }
+ .header-img{
+     display: flex;
+     justify-content: center;
+ }
+ .main{
+     font-family: sans-serif;
+ }
+ .sub-section{
+     margin: 10px 0;
+     font-family: sans-serif;
+     font-style: italic;
  }
